@@ -1,0 +1,40 @@
+/* Color Theme Swatches in Hex */
+.Landscape-in-summer-with-trees-and-meadows-in-bright-sunshine-1-hex { color: #4375D9; }
+.Landscape-in-summer-with-trees-and-meadows-in-bright-sunshine-2-hex { color: #49A3F2; }
+.Landscape-in-summer-with-trees-and-meadows-in-bright-sunshine-3-hex { color: #384001; }
+.Landscape-in-summer-with-trees-and-meadows-in-bright-sunshine-4-hex { color: #F2B90C; }
+.Landscape-in-summer-with-trees-and-meadows-in-bright-sunshine-5-hex { color: #D98E04; }
+
+
+
+.navbar{
+    background-color: #027FED;
+    //color: white;
+}
+.navbar-margin{
+    margin-left: 25px;
+}
+.margin{
+    padding-top: 50px;
+}
+.margin-card1{
+  padding:  100px 20px;
+}
+
+.booton-collapse{
+  margin-right: 30px;
+}
+.logo-login{
+  margin-right: 0px;
+
+}
+.height-a{
+  height: 100%;
+}
+
+.form-container{
+  max-width:500px;
+}
+.booton-m{
+  margin-top: 10px;
+}

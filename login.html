@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script src="js/login.js"></script>
+  <title>Login</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="width: 100%;">
+    <div class="row justify-content-center align-items-center min-vh-100">
+      <div class="card margin-card1">
+        <main class="w-100 m-auto form-container">
+          <form class="text-center" onsubmit="return validateForm()">
+            <div class="mb-4">
+              <img src="img/logo.png" alt="Logo" width="100" class="logo-login">
+            </div>
+            <h2 class="h3 mb-3 fw-normal" id="titleLogin">Login</h2>
+            <div class="form-floating d-none" id="myDivCadastro1">
+              <input type="text" class="form-control" id="floatingName" placeholder="Nome">
+              <label for="floatingName">Nome</label>
+            </div>
+            <!-- Credenciais de acesso-->
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingEmail" placeholder="Digite seu email">
+              <label for="floatingEmail">Email</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+              <label for="floatingPassword">Senha</label>
+            </div>
+            <!--------------------------->
+            <hr class="dropdown-divider">
+            <hr class="dropdown-divider">
+            <div class="form-floating d-none" id="myDivCadastro2">
+              <input type="text" class="form-control" id="floatingCPF" placeholder="CPF">
+              <label for="floatingCPF">CPF</label>
+            </div>
+            <div class="form-floating d-none" id="myDivCadastro3">
+              <input type="text" class="form-control" id="floatingTelefone" placeholder="Telefone">
+              <label for="floatingTelefone">Telefone</label>
+            </div>
+            <div class="form-floating d-none" id="myDivCadastro4">
+              <input type="text" class="form-control" id="floatingEndereco" placeholder="Endereco">
+              <label for="floatingEndereco">Endereço</label>
+            </div>
+            <div class="form-floating d-none" id="myDivCadastro5">
+              <input type="text" class="form-control" id="floatingCidade" placeholder="Cidade">
+              <label for="floatingCidade">Cidade</label>
+            </div>
+            <div class="form-floating d-none" id="myDivCadastro6">
+              <input type="text" class="form-control" id="floatingEstado" placeholder="Estado">
+              <label for="floatingEstado">Estado</label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 my-3" id="booton-Entrar-Cadastrar">Entrar</button>
+            <button type="button" class="btn booton-m" id="toggleButton">Cadastrar</button>
+          </form>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
