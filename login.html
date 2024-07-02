@@ -17,13 +17,14 @@
       margin: 0;
       justify-content: center;
       align-items: center;
+      background: linear-gradient(45deg, #0367A6, #F2DAAC);
     }
   </style>
 </head>
-<body>
+<body class="body-login">
   <div class="container" style="width: 100%;">
     <div class="row justify-content-center align-items-center min-vh-100">
-      <div class="card margin-card1">
+      <div class="card margin-card1 body-login"><!---->
         <main class="w-100 m-auto form-container">
           <form class="text-center" onsubmit="return validateForm()">
             <div class="mb-4">
@@ -44,8 +45,6 @@
               <label for="floatingPassword">Senha</label>
             </div>
             <!--------------------------->
-            <hr class="dropdown-divider">
-            <hr class="dropdown-divider">
             <div class="form-floating d-none" id="myDivCadastro2">
               <input type="text" class="form-control" id="floatingCPF" placeholder="CPF">
               <label for="floatingCPF">CPF</label>
